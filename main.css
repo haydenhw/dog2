@@ -19,6 +19,11 @@ button:hover {
   margin-bottom: 20px;
 }
 
+.dog-image {
+  height: 300px;
+  width: 300px;
+}
+
 .container {
   max-width: 600px;
   margin: 0 auto;
