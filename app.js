@@ -15,6 +15,7 @@ $(async () => {
     const {data} = await fetchRandDogs(numDogsInputVal);
     const dogImages = renderDogs(data.message);
     $('.js-dog-list').html(dogImages)
+    $('.js-hide').removeClass('hidden')
   });
 });
 
